@@ -1,0 +1,18 @@
+
+
+Nama	: KHAEPAH
+Kelas	: 5D
+NIM	: 19090017
+
+
+
+Penjelasan tentang Desain:
+ 
+Datawarehouse adalah sebuah struktur yang dioptimalkan untuk melakukan query.
+Datawarehouse memiliki sebuah struktur yang terspesialisasi untuk itu yang disebut star schema. 
+Struktur ini mendefinisikan sebuah query dalam datawarehouse dan struktur ini membutuhkan 2 tipe table, 
+yakni dimension tables dan fact tables.Tabel yang ada di tengahlah yang disebut fact table dan disekitarnya adalah dimesion table. 
+Perhatikan bahwa setiap dimension langsung terhubung dengan fact table. Hal ini memampukan dimension memiliki sebuah join saja kepada fact table.
+Dimension adalah sebuah tabel yang memberikan detil untuk sebuah fact tabel, 
+misalkan kita ingin mengukur penjualan terhadap produk.
+Dalam kasus ini maka sebuah produk adalah dimension table.
